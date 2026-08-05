@@ -9,4 +9,6 @@ CREATE TABLE IF NOT EXISTS tasks (
     author VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT current_timestamp,
     updated_at TIMESTAMP default current_timestamp on update current_timestamp
-) engine=InnoDB
+) engine=InnoDB;
+
+select * from tasks;
